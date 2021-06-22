@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+    <title>Maple Solution</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script src="./app.js"></script>
+    
+</head>
+
+
+<body class='bg-gray-900 md:flex md:items-center md:justify-center'>
+    <div class="md:max-w-7xl">
+    
+    <!-- Navbar -->
+    <div class="text-white items-center">
+        <div class="items-center transform translate-y-4 justify-between w-full px-5 overflow-y-auto flex flex-rowwhitespace-nowrap scroll-hidden ">
+            <div class="flex flex-wrap w-full justify-between md:items-center md:flex-row">
+                <a href="/" class="pr-2 lg:pr-8 lg:px-6 focus:outline-none">
+                    <div class="inline-flex items-center">
+                        <img
+                        src="./images/logo-01-01.png"    
+                        class="block p-2 h-16 tracking-tighter transition duration-500 ease-in-out transform cursor-pointer lg:mr-8">
+                    </div>
+                </a>
+                <nav class="lg:flex hidden flex-wrap items-center justify-start text-base ">
+                    <ul class="items-center inline-block list-none lg:inline-flex">
+                        <li>
+                            <a href="./devices.html"
+                                class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-blue-400 ">Devices</a>
+                        </li>
+                        <li>
+                            <a href="#bullets"
+                                class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-blue-400 ">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#form"
+                                class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-blue-400 ">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button
+                     class="w-auto lg:flex px-4 md:px-8 md:py-2 my-5 md:my-2 ml-auto text-base font-medium text-white transition duration-500 ease-in-out transform bg-green-600 border-green-600 rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-green-700">
+                     <a class="flex-row flex gap-2 items-center justify-center" href="https://wa.link/dibf4r">   
+                     <svg height="56.693px" id="Layer_1" style="enable-background:new 0 0 56.693 56.693;" version="1.1"
+                    viewBox="0 0 56.693 56.693" class="w-5 h-5" fill="currentColor" width="56.693px" xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <style type="text/css">
+                        .st0 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                        }
+                    </style>
+                    <g>
+                        <path class="st0"
+                            d="M46.3802,10.7138c-4.6512-4.6565-10.8365-7.222-17.4266-7.2247c-13.5785,0-24.63,11.0506-24.6353,24.6333   c-0.0019,4.342,1.1325,8.58,3.2884,12.3159l-3.495,12.7657l13.0595-3.4257c3.5982,1.9626,7.6495,2.9971,11.7726,2.9985h0.01   c0.0008,0-0.0006,0,0.0002,0c13.5771,0,24.6293-11.0517,24.635-24.6347C53.5914,21.5595,51.0313,15.3701,46.3802,10.7138z    M28.9537,48.6163h-0.0083c-3.674-0.0014-7.2777-0.9886-10.4215-2.8541l-0.7476-0.4437l-7.7497,2.0328l2.0686-7.5558   l-0.4869-0.7748c-2.0496-3.26-3.1321-7.028-3.1305-10.8969c0.0044-11.2894,9.19-20.474,20.4842-20.474   c5.469,0.0017,10.6101,2.1344,14.476,6.0047c3.8658,3.8703,5.9936,9.0148,5.9914,14.4859   C49.4248,39.4307,40.2395,48.6163,28.9537,48.6163z" />
+                        <path class="st0"
+                            d="M40.1851,33.281c-0.6155-0.3081-3.6419-1.797-4.2061-2.0026c-0.5642-0.2054-0.9746-0.3081-1.3849,0.3081   c-0.4103,0.6161-1.59,2.0027-1.9491,2.4136c-0.359,0.4106-0.7182,0.4623-1.3336,0.1539c-0.6155-0.3081-2.5989-0.958-4.95-3.0551   c-1.83-1.6323-3.0653-3.6479-3.4245-4.2643c-0.359-0.6161-0.0382-0.9492,0.27-1.2562c0.2769-0.2759,0.6156-0.7189,0.9234-1.0784   c0.3077-0.3593,0.4103-0.6163,0.6155-1.0268c0.2052-0.4109,0.1027-0.7704-0.0513-1.0784   c-0.1539-0.3081-1.3849-3.3379-1.8978-4.5706c-0.4998-1.2001-1.0072-1.0375-1.3851-1.0566   c-0.3585-0.0179-0.7694-0.0216-1.1797-0.0216s-1.0773,0.1541-1.6414,0.7702c-0.5642,0.6163-2.1545,2.1056-2.1545,5.1351   c0,3.0299,2.2057,5.9569,2.5135,6.3676c0.3077,0.411,4.3405,6.6282,10.5153,9.2945c1.4686,0.6343,2.6152,1.013,3.5091,1.2966   c1.4746,0.4686,2.8165,0.4024,3.8771,0.2439c1.1827-0.1767,3.6419-1.489,4.1548-2.9267c0.513-1.438,0.513-2.6706,0.359-2.9272   C41.211,33.7433,40.8006,33.5892,40.1851,33.281z" />
+                    </g>
+                </svg>
+                <p>Text Message</p>
+                </a>
+                </button>
+            </div>
+            <!-- <button class="focus:outline-none w-12">
+                <svg class="lg:hidden font-medium text-white transition duration-500 ease-in-out transform"
+                    xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="#FFFFFF">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
+            </button> -->
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section id='hero' class='md:p-12 tracking-tighter flex flex-col md:flex-row-reverse items-center justify-start md:justify-between h-screen'>
+        <div class='flex relative md:pl-16 items-center justify-between w-3/5 md:w-full overflow-hidden' id="slider">
+            <img class='absolute w-full max-w-sm md:max-w-3xl transition-all ease-in-out duration-1000 transform translate-x-0 slide' src='./images/iPhone-01.png' alt="iPhone X" />
+            <img class='w-full max-w-sm md:max-w-3xl transition-all ease-in-out duration-1000 transform translate-x-full slide' src='./images/apple watch-01.png' alt="iPhone X" />
+            <img class='w-full max-w-sm md:max-w-3xl transition-all ease-in-out duration-1000 transform translate-x-full slide' src='./images/Logo.svg' alt="iPhone X" />
+        </div>
+        <div class="flex items-center text-center md:text-left md:items-start justify-center flex-col">
+        <h2 class='text-3xl md:text-5xl w-9/12 md:w-full text-white font-bold'>The most reliable and trusted
+            Apple repair in Indore</h2>
+        <p class='text-white p-12 md:p-0 md:py-12'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.s</p>
+        <a href="#form" class='bg-blue-600 text-center p-2 w-3/6 max-w-xs focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-700 shadow-md rounded-full text-white font-bold'>Contact Us!</a>
+        </div>
+    </section>
+    
+    <!-- Services -->
+    <div class="bg-white flex  md:flex-row flex-col justify-center items-center" id="bullets">
+    <section class="text-blueGray-700 ">
+        <div class="container items-center px-5 py-8 mx-auto lg:px-10">
+            <div class="flex flex-wrap mb-12 text-left">
+                <div class="w-full mx-auto lg:w-1/4">
+                    <div class="p-6">
+                        <div
+                            class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto mb-5 text-black bg-white shadow-md rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <g>
+                                    <rect fill="none" height="30" width="30" />
+                                </g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M20,3H4C2.9,3,2,3.9,2,5v14c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V5 C22,3.9,21.1,3,20,3z M20,19H4V5h16V19z"
+                                            fill-rule="evenodd" />
+                                        <polygon fill-rule="evenodd" points="19.41,10.42 17.99,9 14.82,12.17 13.41,10.75 12,12.16 14.82,15" />
+                                        <rect fill-rule="evenodd" height="2" width="5" x="5" y="7" />
+                                        <rect fill-rule="evenodd" height="2" width="5" x="5" y="11" />
+                                        <rect fill-rule="evenodd" height="2" width="5" x="5" y="15" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1
+                            class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font">
+                            Apple Certified Technician </h1>
+                        <p class="mx-auto text-base font-medium leading-relaxed text-blueGray-700 ">
+                           Your apple product will be handled by a professional with years of experience at repairing anything apple.</p>
+                    </div>
+                </div>
+                <div class="w-full mx-auto lg:w-1/4">
+                    <div class="p-6">
+                        <div
+                            class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto mb-5 text-black bg-white shadow-md rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <g>
+                                    <rect fill="none" height="24" width="24" />
+                                </g>
+                                <g>
+                                    <g />
+                                    <g>
+                                        <path d="M16.67,13.13C18.04,14.06,19,15.32,19,17v3h4v-3C23,14.82,19.43,13.53,16.67,13.13z" />
+                                        <path
+                                            d="M15,12c2.21,0,4-1.79,4-4c0-2.21-1.79-4-4-4c-0.47,0-0.91,0.1-1.33,0.24C14.5,5.27,15,6.58,15,8s-0.5,2.73-1.33,3.76 C14.09,11.9,14.53,12,15,12z" />
+                                        <path
+                                            d="M9,12c2.21,0,4-1.79,4-4c0-2.21-1.79-4-4-4S5,5.79,5,8C5,10.21,6.79,12,9,12z M9,6c1.1,0,2,0.9,2,2c0,1.1-0.9,2-2,2 S7,9.1,7,8C7,6.9,7.9,6,9,6z" />
+                                        <path
+                                            d="M9,13c-2.67,0-8,1.34-8,4v3h16v-3C17,14.34,11.67,13,9,13z M15,18H3l0-0.99C3.2,16.29,6.3,15,9,15s5.8,1.29,6,2V18z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font">
+                            Friendly Staff </h1>
+                        <p class="mx-auto text-base font-medium leading-relaxed text-blueGray-700 ">Our Polite staff will guide you through the entire process and give you the best advice with your device.</p>
+                    </div>
+                </div>
+                <div class="w-full mx-auto lg:w-1/4">
+                    <div class="p-6">
+                        <div
+                            class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto mb-5 text-black bg-white shadow-md rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <g>
+                                    <rect fill="none" height="24" width="24" />
+                                </g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M20,8h-3V6c0-1.1-0.9-2-2-2H9C7.9,4,7,4.9,7,6v2H4c-1.1,0-2,0.9-2,2v10h20V10C22,8.9,21.1,8,20,8z M9,6h6v2H9V6z M20,18H4 v-3h2v1h2v-1h8v1h2v-1h2V18z M18,13v-1h-2v1H8v-1H6v1H4v-3h3h10h3v3H18z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font">
+                            Free Diagnosis </h1>
+                        <p class="mx-auto text-base font-medium leading-relaxed text-blueGray-700 ">We ensure to give our costumers a choice with their Apple device and hence we offer a Free Diagnosis to find and quote your problems.</p>
+                    </div>
+                </div>
+                <div class="w-full mx-auto lg:w-1/4">
+                    <div class="p-6">
+                        <div
+                            class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto mb-5 text-black bg-white shadow-md rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <g>
+                                    <rect fill="none" height="24" width="24" />
+                                </g>
+                                <g>
+                                    <g />
+                                    <g>
+                                        <path
+                                            d="M12,1L3,5v6c0,5.55,3.84,10.74,9,12c5.16-1.26,9-6.45,9-12V5L12,1z M19,11c0,1.85-0.51,3.65-1.38,5.21l-1.45-1.45 c1.29-1.94,1.07-4.58-0.64-6.29c-1.95-1.95-5.12-1.95-7.07,0c-1.95,1.95-1.95,5.12,0,7.07c1.71,1.71,4.35,1.92,6.29,0.64 l1.72,1.72c-1.19,1.42-2.73,2.51-4.47,3.04C7.98,19.69,5,15.52,5,11V6.3l7-3.11l7,3.11V11z M12,15c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,15,12,15z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font">
+                            No fix no fees</h1>
+                        <p class="mx-auto text-base font-medium leading-relaxed text-blueGray-700 ">It is our policy to satisfy all our costumers and hence we ensure to resolve your issues before charging</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>  
+    
+    <!-- Devices -->
+    <section id="devices" class="text-black font-semibold flex items-center justify-center flex-col">
+        <h1 class="mx-auto mb-8 text-2xl pt-10 text-center font-semibold leading-none tracking-tighter text-white lg:text-3xl title-font">
+            Our Service Devices </h1>
+        <div class="grid grid-cols-1 p-20 pt-0 m-10 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+        <div class="grid bg-white p-12 rounded-md border">
+            <img class="justify-self-center m-4" src="./images/icons8-iphone-x-100.png" alt="">
+            <h1 class="mt-8 text-xl font-semibold leading-none tracking-tighter text-black lg:text-2xl">
+                iPhone </h1>
+            <a href='#' class="text-blue-500">
+                Read More>>
+            </a>
+        </div>
+        <div class="grid p-12 bg-white rounded-md border">
+            <img class="justify-self-center m-4" src="./images/icons8-ipad-100.png" alt="">
+            <h1 class="mt-8 text-xl font-semibold leading-none tracking-tighter text-black lg:text-2xl">
+                iPad </h1>
+            <a href='#' class="text-blue-500">
+                Read More>>
+            </a>
+        </div>
+        <div class="grid p-12 bg-white rounded-md border">
+            <img class="justify-self-center m-4" src="./images/icons8-apple-watch-100.png" alt="">
+            <h1 class="mt-8 text-xl font-semibold leading-none tracking-tighter text-black lg:text-2xl">
+                Apple Watch </h1>
+            <a href='#' class="text-blue-500">
+                Read More>>
+            </a>
+        </div>
+        <div class="grid p-12 bg-white rounded-md border">
+            <img class="justify-self-center m-4" src="./images/icons8-macbook-100.png" alt="">
+            <h1 class="mt-8 text-xl font-semibold leading-none tracking-tighter text-black">
+                Macbook/iMac </h1>
+            <a href='#' class="text-blue-500">
+                Read More>>
+            </a>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Form -->
+    <section id='form' class="w-full tracking-tighter bg-white flex items-center justify-center">
+        <img src="#" alt="">
+        <form action="" method="POST" class="w-5/6 max-w-2xl gap-3 bg-white rounded-2xl py-10 flex flex-col items-center justify-end">
+        <h1 class="font-semibold text-2xl md:text-3xl">Contact to get a Quote</h1>
+        <div class="flex w-full px-10 items-around flex-wrap">   
+        <div id="name" class="flex mt-6 md:pr-2 w-full md:w-1/2 flex-col ml-0">
+                <span>
+                    <label for="name">
+                        Name
+                    </label>
+                </span>
+                <input
+                    class="h-9 pl-3 shadow-md bg-gray-100 rounded-md outline-none focus:ring-2 ring-blue-300"
+                    placeholder="enter your name" type="name" required />
+            </div>
+            <div id="email" class="flex mt-6 md:pl-2 md:w-1/2 w-full flex-col mt-4 ml-0">
+                <span>
+                    <label for="email">
+                        Email
+                    </label>
+                </span>
+                <input class="h-9 pl-3 shadow-md bg-gray-100 rounded-md outline-none focus:ring-2 ring-blue-300"
+                    placeholder="enter your email" type="email" required />
+            </div>
+            <div id="Phone" class="flex mt-6 md:pr-2 md:w-1/2 w-full flex-col mt-4 ml-0">
+                <span>
+                    <label for="number">
+                        Contact No.
+                    </label>
+                </span>
+                <input class="h-9 pl-3 shadow-md bg-gray-100 rounded-md outline-none focus:ring-2 ring-blue-300"
+                    placeholder="enter your number" type="number" required />
+            </div>
+            <div id="Device" class="flex mt-6 md:pl-2 md:w-1/2 w-full flex-col mt-4 ml-0">
+                <span>
+                    <label for="Device">
+                        Your Device
+                    </label>
+                </span>
+                <input class="h-9 pl-3 shadow-md bg-gray-100 rounded-md outline-none focus:ring-2 ring-blue-300"
+                    placeholder="enter your device name" type="text" required />
+            </div>
+        </div>
+            <div id="Description" class="flex w-full px-10 flex-col mt-4 ml-0">
+                <span>
+                    <label for="Description">
+                        Description
+                    </label>
+                </span>
+                <textarea required placeholder="Briefly Describe your issue" class=" pl-3 pt-2 shadow-md bg-gray-100 rounded-md outline-none focus:ring-2 ring-blue-300" name="Issue" id="issue" cols="25" rows="10"></textarea>
+            </div>
+            <div id="submit" class="flex w-full items-center px-10 flex-col mt-4 ml-0">
+                <button class="bg-blue-500 p-2 w-3/6 max-w-xs focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-700 shadow-md rounded-full text-white font-bold">Submit</button>
+            </div>
+        </form>
+    </section>
+    
+    <!-- Details -->
+    <section id="Details" class="flex items-center justify-center gap-10 text-white flex-wrap p-12">
+        <div>
+        <p>Address</p>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.7117023587516!2d75.89211601538533!3d22.664535185135488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fda7fab153cf%3A0x20e56143d9218789!2sMapple%20Solution%20iPhone%20repair%20Macbook%20repair!5e0!3m2!1sen!2sin!4v1624013598047!5m2!1sen!2sin"
+        width="400" class="rounded-md" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+            <div class="p-4">
+                <p>Contact No.</p>
+                <p class="text-xl font-semibold">(+91)877 003 8524</p>
+            </div>
+            <div class="p-4">
+                <p>Email</p>
+                <p class="text-xl font-semibold">123@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <div id="footer" class="w-full bg-white w-9/12 px-10 mt-6 flex flex-col items-center justify-center">
+        <div class=" items-center ">
+            <footer class="text-blueGray-700 transition duration-500 ease-in-out transform bg-white rounded-lg ">
+                <div class="flex flex-row flex-wrap justify-center p-5 md:flex-row">
+                    <nav class="flex flex-wrap items-center justify-center w-full mx-auto mb-6 text-base nprd">
+                        <a href="./devices.html"
+                            class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">Devices</a>
+                        <a href="#form"
+                            class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">Contact</a>
+                        <a href="#bullets"
+                            class="px-4 py-1 mr-1 text-base text-blueGray-500 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black ">Services</a>
+                    </nav>
+                    <span class="inline-flex justify-center w-full mx-auto mt-2 mr-2 sm:ml-auto sm:mt-0">
+                        <a class="text-blue-500 hover:text-black">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://wa.link/dibf4r" class="ml-3 text-blue-500 hover:text-green-400">
+                            <?xml version="1.0" ?><svg height="56.693px" id="Layer_1" style="enable-background:new 0 0 56.693 56.693;" version="1.1"
+                                viewBox="0 0 56.693 56.693" class="w-5 h-5" fill="currentColor" width="56.693px" xml:space="preserve"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill-rule: evenodd;
+                                        clip-rule: evenodd;
+                                    }
+                                </style>
+                                <g>
+                                    <path class="st0"
+                                        d="M46.3802,10.7138c-4.6512-4.6565-10.8365-7.222-17.4266-7.2247c-13.5785,0-24.63,11.0506-24.6353,24.6333   c-0.0019,4.342,1.1325,8.58,3.2884,12.3159l-3.495,12.7657l13.0595-3.4257c3.5982,1.9626,7.6495,2.9971,11.7726,2.9985h0.01   c0.0008,0-0.0006,0,0.0002,0c13.5771,0,24.6293-11.0517,24.635-24.6347C53.5914,21.5595,51.0313,15.3701,46.3802,10.7138z    M28.9537,48.6163h-0.0083c-3.674-0.0014-7.2777-0.9886-10.4215-2.8541l-0.7476-0.4437l-7.7497,2.0328l2.0686-7.5558   l-0.4869-0.7748c-2.0496-3.26-3.1321-7.028-3.1305-10.8969c0.0044-11.2894,9.19-20.474,20.4842-20.474   c5.469,0.0017,10.6101,2.1344,14.476,6.0047c3.8658,3.8703,5.9936,9.0148,5.9914,14.4859   C49.4248,39.4307,40.2395,48.6163,28.9537,48.6163z" />
+                                    <path class="st0"
+                                        d="M40.1851,33.281c-0.6155-0.3081-3.6419-1.797-4.2061-2.0026c-0.5642-0.2054-0.9746-0.3081-1.3849,0.3081   c-0.4103,0.6161-1.59,2.0027-1.9491,2.4136c-0.359,0.4106-0.7182,0.4623-1.3336,0.1539c-0.6155-0.3081-2.5989-0.958-4.95-3.0551   c-1.83-1.6323-3.0653-3.6479-3.4245-4.2643c-0.359-0.6161-0.0382-0.9492,0.27-1.2562c0.2769-0.2759,0.6156-0.7189,0.9234-1.0784   c0.3077-0.3593,0.4103-0.6163,0.6155-1.0268c0.2052-0.4109,0.1027-0.7704-0.0513-1.0784   c-0.1539-0.3081-1.3849-3.3379-1.8978-4.5706c-0.4998-1.2001-1.0072-1.0375-1.3851-1.0566   c-0.3585-0.0179-0.7694-0.0216-1.1797-0.0216s-1.0773,0.1541-1.6414,0.7702c-0.5642,0.6163-2.1545,2.1056-2.1545,5.1351   c0,3.0299,2.2057,5.9569,2.5135,6.3676c0.3077,0.411,4.3405,6.6282,10.5153,9.2945c1.4686,0.6343,2.6152,1.013,3.5091,1.2966   c1.4746,0.4686,2.8165,0.4024,3.8771,0.2439c1.1827-0.1767,3.6419-1.489,4.1548-2.9267c0.513-1.438,0.513-2.6706,0.359-2.9272   C41.211,33.7433,40.8006,33.5892,40.1851,33.281z" />
+                                </g>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+                <div class="w-full px-8 mt-4 rounded-b-lg bg-blueGray-50">
+                    <div class="container inline-flex flex-col flex-wrap items-center px-5 py-6 mx-auto sm:flex-row">
+                        <p class="mx-auto text-sm text-center text-black sm:text-left "> © 2021 Maple Solutions, Indore </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
